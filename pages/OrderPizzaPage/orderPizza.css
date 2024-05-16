@@ -1,0 +1,63 @@
+#orderPizza {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+#orderPizza img {
+    width: 361.93px;
+    height: 45.79px;
+    margin-top: 80px;
+
+}
+
+header {
+    background: #CE2829;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links {
+
+    color: white;
+    width: 581px;
+    margin-top: 60px;
+
+}
+
+
+#links a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#orderForm {
+
+    display: flex;
+    flex-direction: column;
+    width: 581px;
+    gap: 32px;
+    color: black;
+    font-family: "Barlow";
+}
+
+#priceRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ratings {
+    display: flex;
+    justify-content: space-between;
+    width: 168px;
+}
