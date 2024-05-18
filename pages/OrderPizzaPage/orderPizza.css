@@ -1,19 +1,17 @@
 #orderPizza {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
-
-
+    overflow: visible;
 }
 
 #orderPizza img {
     width: 361.93px;
     height: 45.79px;
     margin-top: 80px;
-
 }
 
 header {
@@ -30,19 +28,16 @@ header {
     color: white;
     width: 581px;
     margin-top: 60px;
-
 }
+
 
 
 #links a {
-
     color: white;
     text-decoration: none;
-
 }
 
 #orderForm {
-
     display: flex;
     flex-direction: column;
     width: 581px;
@@ -60,4 +55,149 @@ header {
     display: flex;
     justify-content: space-between;
     width: 168px;
+}
+
+#pizzaSizeDough {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#pizzaSize {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.labelSize {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#materials {
+    margin-top: 32px;
+}
+
+#materialsPriseİnfo {
+    margin-top: 20px;
+}
+
+#pizzaMaterials {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #5F5F5F;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-around;
+    width: 586px;
+    height: 214px;
+    gap: 13px;
+    margin-top: 20px;
+}
+
+#orderNote {
+    margin-top: 20px;
+}
+
+#orderNoteTextArea {
+    width: 590px;
+    height: 56px;
+    white-space: pre-wrap;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: #5F5F5F80;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#countcontainer {
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.arttırAzalt {
+    width: 47px;
+    height: 56px;
+    top: 1333.91px;
+    left: 695px;
+    padding: 11.59px 0px 17.41px 0px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background-color: #FDC913;
+}
+
+.count {
+    padding: 17.41px;
+    border: 1px solid #D9D9D9;
+    flex-basis: unset;
+    align-self: baseline;
+}
+
+#orderTotal {
+
+    width: 386px;
+    height: 259px;
+    top: 1333px;
+    left: 899.41px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #D9D9D9;
+    align-content: flex-end;
+}
+
+#countOrderContainer {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+
+}
+
+#orderBtn {
+    width: 386px;
+    height: 62px;
+    top: 1526px;
+    left: 899.41px;
+    padding: 5px 128.85px 5px 151px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FDC913;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    text-decoration: none;
+
 }
